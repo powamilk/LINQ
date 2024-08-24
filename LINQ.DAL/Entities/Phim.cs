@@ -19,5 +19,5 @@ public partial class Phim
 
     public string? MoTa { get; set; }
 
-    public virtual ICollection<TheLoai> TheLoais { get; set; } = new List<TheLoai>();
+    public virtual ICollection<TheLoaiCuaPhim> TheLoaiCuaPhims { get; set; } = new List<TheLoaiCuaPhim>();
 }
